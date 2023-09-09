@@ -8,5 +8,5 @@ use employees;
 # lista los primeros 10 empleados
 select emp_no, first_name, last_name 
     from employees 
-    where first_name like 'An%'
+    where first_name like 'Anne%'
     limit 5;
